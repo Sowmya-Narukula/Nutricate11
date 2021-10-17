@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+</head>
+<body>
+
+  <h1 style=text-align:center> <i>NUTRICATE</i></h1>
+  <div><nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#"><img src="./assets/IMAGES/NUTRITION EDUCATION (1).jpg" height="100px" width="100px" style="border-radius:200px;"></a>
+  
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/home"><img src="./assets/IMAGES/HOME (1).jpg" width="40px" height="40px"  style="border-radius: 100px;">home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/aboutus"><img src="./assets/IMAGES/Untitled design (3).jpg" width="40px" height="40px" style="border-radius: 100px;">About Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" routerLink="/studentcorner" id="navbardrop" data-toggle="dropdown">
+          <img src="./assets/IMAGES/BollyViewed (1).jpg" width="40px" height="40px" style="border-radius: 100px;">Student Corner
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" routerLink="studentcorner/lectures"><img src="./assets/IMAGES/LECTURES (1).jpg" width="40px" height="40px" style="border-radius: 100px;">Lectures</a>
+          <a class="dropdown-item" routerLink="studentcorner/mcqs"><img src="./assets/IMAGES/MCQ's.jpg" width="40px" height="40px" style="border-radius: 100px;">MCQ's</a>
+      </div>
+    </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/blog"><img src="./assets/IMAGES/BLOG (1).jpg" width="40px" height="40px" style="border-radius: 100px;">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contactus"><img src="./assets/IMAGES/Contact Us (1).jpg" width="35px" height="35px" style="border-radius: 100px;">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  class="a" routerLink="/login">LOGIN</a>
+
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  class="b" routerLink="/signup">SIGNUP</a>
+      </li>
+      <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" routerLink="/assets" id="navbardrop" data-toggle="dropdown">
+          ASSETS
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" routerLink="assets/videos">VIDEOS</a>
+          <a class="dropdown-item" routerLink="assets/quiz">QUIZ</a>
+      </div>
+      </li> -->
+      <br><br>
+      <div class="d-flex justify-content-center h-100">
+        <div class="search"> <input type="text" class="search-input" placeholder="search..." name=""> <a href="#" class="search-icon"> <i class="fa fa-search"></i> </a> </div>
+    </div>
+    </ul>
+  </nav>
+  </div>
+  
+<router-outlet></router-outlet>
+
+</body>
+<app-footer></app-footer>
+</html>

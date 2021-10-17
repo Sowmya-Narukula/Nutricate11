@@ -1,0 +1,32 @@
+
+h1{
+    text-align: center;
+    text-decoration: lightpink;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  div{
+    font-size: xx-large;
+      font-weight: bolder;
+      font-style: inherit;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  body{
+    
+      background-color: palegreen;
+  }
+.abc{
+  background-color:cadetblue;
+  color: blanchedalmond;
+}
+.x{
+  background-color:darkslategrey;
+  color: blanchedalmond;
+  
+}
